@@ -1,0 +1,114 @@
+*{
+    /*Eliminar espacios y margenes */
+    margin: 0;
+    padding: 0;
+    /* Declaro tipografia para todo mi proyecto */
+    font-family: "Outfit", sans-serif;
+    /* Declaro un font-size de base para mi proyecto */
+    font-size: 16px;
+    /* px*/
+    /* rem
+        rem = 16px => default
+    */
+    
+    /* em
+        em = se tiene que declarar medida base. Toma el valor respecto de la base
+        0.5em = 12px (respecto de la base)
+    */
+}
+
+/* Header */
+.encabezado{
+    background-color: #a77cfc;
+}
+.encabezado img{
+    width: 10em;
+}
+.menu-list li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Main */
+.titulo{
+    font-size: 2em;
+    color: #7b797d;
+}
+.portada img{
+    width: 100%;
+}
+.section-salas{
+    border-color: #000000;
+}
+.section-salas h2{
+    color: #7b797d;
+}
+.contenedor-imagen{
+    width: 10em;
+}
+.contenedor-imagen img{
+    width: 100%;
+}
+.contenedor-imagen p{
+    font-size: 0.8em;
+}
+.card{
+    border-color: #cfcdd1;
+}
+.section-inferior h2{
+    background-color: #a77cfc;
+}
+.section-salas p{
+    font-size: 0.8em;
+}
+/* Footer */
+.section-footer{
+    background-color: #4b4a4d;
+}
+.contenedor-logo-redes{
+    width: 4em;
+}
+.contenedor-logo-redes img{
+    width: 15%;
+}
+.contenedor-logo-redes a{
+    font-size: 0.5em;
+    text-decoration: none;
+}
+/*contactos en footer*/
+.contenedor-logo-contactos{
+    width: 4em;
+}
+.contenedor-logo-contactos img{
+    width: 15%;
+}
+.contenedor-logo-contactos a{
+    font-size: 0.5em;
+    text-decoration: none;
+}
+/* ESTILOS PROPIOS DE GALERIA*/
+.section-galeria-fotos{
+    border-color: #000000;
+}
+.section-galeria-fotos h2{
+    background-color: #a77cfc;
+}
+/* ESTILOS PROPIOS DE NOVEDADES*/
+.section-calendar{
+    width: 50em;
+}
+.section-calendar img{
+    width: 100%;
+}
+.section-noticias{
+
+}
+.section-noticias h2{
+    background-color: #a77cfc;
+}
+/* ESTILOS PROPIOS DE NOSOTROS*/
+.section-imagenes-jardin{
+
+}
+.section-imagenes-jardin h2{
+    background-color: #a77cfc;
+}
