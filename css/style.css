@@ -47,12 +47,15 @@
 }
 .contenedor-imagen img{
     width: 100%;
+    border-radius: 25px;
 }
 .contenedor-imagen p{
     font-size: 0.8em;
 }
 .card{
     border-color: #cfcdd1;
+    border-radius: 25px;
+    background-color: #f8f3f3;
 }
 .section-inferior h2{
     background-color: #a77cfc;
@@ -112,3 +115,22 @@
 .section-imagenes-jardin h2{
     background-color: #a77cfc;
 }
+
+/* clases para FLEX */
+.contenedor-flex{
+    background-color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+/* INDEX > ENSEÑANZA*/
+.contenedor-imagen-seccion-inferior{
+    width: 10em;
+}
+.contenedor-imagen-seccion-inferior img{
+    width: 100%;
+    border-radius: 25px;
+}
+
